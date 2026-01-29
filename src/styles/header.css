@@ -125,4 +125,8 @@
   .wp-topbar__right {
     display: none;
   }
+  .site-logo {
+  height: 48px;       /* this is ~⅓ smaller than typical SVG defaults */
+  width: auto;        /* keeps proportions correct */
+}
 }
