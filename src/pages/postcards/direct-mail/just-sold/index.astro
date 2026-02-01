@@ -1,0 +1,153 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+// Page meta
+const title = "Just Sold Postcards";
+const description =
+  "Just Sold postcards help real estate agents showcase recent wins, build credibility, and stay top of mind in the neighborhoods they want to farm.";
+---
+
+<Layout title={title} description={description}>
+  <main class="page">
+    <div class="container">
+      <!-- Breadcrumbs (copy-first, simple) -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href="/postcards">Postcards</a>
+        <span aria-hidden="true">/</span>
+        <a href="/real-estate-postcards">Real Estate Postcards</a>
+        <span aria-hidden="true">/</span>
+        <span>Just Sold Postcards</span>
+      </nav>
+
+      <!-- Hero -->
+      <header class="hero">
+        <h1>{title}</h1>
+
+        <div class="meta">
+          <p class="price"><span class="currency">$</span>1.04</p>
+
+          <a class="cta" href="https://wisepelican.com/sign-up-v3-split/" target="_blank" rel="noopener">
+            Browse All Postcards for Free
+          </a>
+        </div>
+
+        <div class="intro">
+          <p>
+            Just Sold postcards are a powerful way for real estate agents to showcase recent successes and
+            build credibility in their target neighborhoods. By sending out Just Sold postcards, you highlight
+            that you can deliver results and you stay top of mind with homeowners who may be thinking about selling.
+          </p>
+          <p>
+            Just Sold postcards work best when they are part of a broader marketing strategy. They help establish
+            you as an active, proven agent in the area, which can increase listing conversations over time.
+          </p>
+          <p>
+            Our Just Sold postcard templates can be customized with property highlights, professional photos, and messaging
+            that feels local and personal. Many templates also include a clear next step, like requesting a home valuation
+            or starting a conversation about selling.
+          </p>
+        </div>
+      </header>
+
+      <!-- Placeholder sections for later -->
+      <section class="section">
+        <h2>Just Sold postcard examples</h2>
+        <p>
+          We’ll add the template grid / carousel here next. For now, this section is ready for your copy.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li>sign up for free</li>
+          <li>choose and customize a Just Sold template</li>
+          <li>print and mail to your farming area</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .page {
+    padding: 32px 0 64px;
+  }
+
+  .container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .breadcrumbs {
+    font-size: 14px;
+    opacity: 0.85;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+
+  .breadcrumbs a {
+    text-decoration: none;
+  }
+
+  .hero h1 {
+    margin: 0 0 12px;
+    line-height: 1.1;
+  }
+
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+
+  .price {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .currency {
+    opacity: 0.9;
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .intro p {
+    margin: 0 0 12px;
+    max-width: 78ch;
+  }
+
+  .section {
+    margin-top: 42px;
+  }
+
+  .section h2 {
+    margin: 0 0 10px;
+  }
+
+  .steps {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .steps li {
+    margin: 8px 0;
+  }
+</style>
