@@ -126,7 +126,7 @@
     display: none;
   }
   .site-logo {
-  height: 38px;       /* this is ~⅓ smaller than typical SVG defaults */
+  height: 48px;       /* this is ~⅓ smaller than typical SVG defaults */
   width: auto;        /* keeps proportions correct */
 }
 }
